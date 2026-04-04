@@ -9,6 +9,7 @@ import Testimonial from "./components/Testimonial";
 import FAQ from "./components/FAQ";
 import CTASection from "./components/CTASection";
 import Footer from "./components/Footer";
+import LogoMarquee from "./components/LogoMarquee";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <title>One Little Web</title>
       <NavBar></NavBar>
       <Hero></Hero>
+      <LogoMarquee></LogoMarquee>
       <Services></Services>
       <Pricing></Pricing>
       <OurTools></OurTools>
