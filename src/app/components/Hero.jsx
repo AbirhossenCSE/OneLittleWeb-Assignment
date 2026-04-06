@@ -1,5 +1,3 @@
-// components/Hero.tsx
-
 import Image from 'next/image';
 
 export default function Hero() {
@@ -83,9 +81,6 @@ export default function Hero() {
 
         {/* Trust Signal */}
         <div className="mt-20 flex flex-col items-center gap-3">
-          <div className="bg-blue-600 text-white text-sm font-semibold px-8 py-2 rounded-full inline-block">
-            923 × 523
-          </div>
           <p className="text-gray-600 font-medium text-lg">
             Trusted by leaders in <span className="font-semibold text-gray-800">50+</span> industries
           </p>
@@ -100,3 +95,4 @@ export default function Hero() {
     </div>
   );
 }
+

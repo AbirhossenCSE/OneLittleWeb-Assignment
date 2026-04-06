@@ -35,18 +35,18 @@ const tools = [
   {
     id: 7,
     name: "Hostfully",
-    image: "/images/tools/hostfully.png",
+    image: "/images/tools/hostfully2.png",
   },
   {
     id: 8,
     name: "Guesty",
-    image: "/images/tools/guesty.png",
+    image: "/images/tools/guesty2.png",
     subtitle: "For Hosts",
   },
   {
     id: 9,
     name: "LODGIFY",
-    image: "/images/tools/lodgify.png",
+    image: "/images/tools/lodgify2.png",
   },
 ];
 

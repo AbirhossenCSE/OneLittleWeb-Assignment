@@ -2,13 +2,13 @@
 import Image from 'next/image';
 
 const logos = [
-  { name: "Airbnb", src: "/images/partners/airbnb.png" },
-  { name: "Booking.com", src: "/images/partners/booking.png" },
-  { name: "Vrbo", src: "/images/partners/vrbo.png" },
-  { name: "Tripadvisor", src: "/images/partners/tripadvisor.png" },
-  { name: "Agoda", src: "/images/partners/agoda.png" },
-  { name: "Expedia", src: "/images/partners/expedia.png" },
-  { name: "HomeToGo", src: "/images/partners/hometogo.png" },
+  { name: "Airbnb", src: "/images/partners/airbnb.svg" },
+  { name: "Booking.com", src: "/images/partners/booking.svg" },
+  { name: "Vrbo", src: "/images/partners/vrbo.svg" },
+  { name: "Tripadvisor", src: "/images/partners/tripadvisor.svg" },
+  { name: "Agoda", src: "/images/partners/agoda.svg" },
+  { name: "Expedia", src: "/images/partners/expedia.svg" },
+  { name: "HomeToGo", src: "/images/partners/hometogo.svg" },
 ];
 
 export default function LogoMarquee() {

@@ -7,7 +7,7 @@ export const services = [
   },
   {
     id: 2,
-    icon: "/images/icons/calendar.png",
+    icon: "/images/icons/calendar.svg",
     title: "Manage Customer Bookings",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
