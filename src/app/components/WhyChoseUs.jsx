@@ -1,5 +1,3 @@
-// components/WhyChooseUs.js
-
 import Image from 'next/image';
 import { 
   FaUserPlus, 
@@ -116,18 +114,18 @@ export default function WhyChooseUs() {
             {/* Right Side - Image + Elements */}
             <div className="relative flex justify-center lg:justify-end">
               {/* Man Image */}
-              <div className="relative z-10">
+              <div className="relative z-10 top-2 right-28">
                 <Image 
-                  src="/images/man.png"           // Change later
+                  src="/images/man.png"
                   alt="Happy Man"
-                  width={420}
-                  height={520}
+                  width={280}
+                  height={380}
                   className="rounded-3xl object-cover"
                 />
               </div>
 
               {/* Floating Elements */}
-              <div className="absolute -top-6 -right-6 bg-white p-4 rounded-2xl shadow-lg">
+              <div className="absolute -top-18 right-52 bg-white p-4 rounded-2xl shadow-lg z-1">
                 <Image 
                   src="/images/room-review.png"   // Change later
                   alt="Room Review"
@@ -144,7 +142,7 @@ export default function WhyChooseUs() {
               </div>
 
               {/* Calendar */}
-              <div className="absolute -bottom-6 left-12 bg-white p-4 rounded-2xl shadow-lg">
+              <div className="absolute -bottom-6 -left-18 bg-white p-4 rounded-2xl shadow-lg">
                 <div className="text-xs text-center mb-2 font-medium">March 2026</div>
                 <div className="grid grid-cols-7 gap-1 text-xs">
                   {Array.from({ length: 31 }, (_, i) => (
@@ -159,13 +157,8 @@ export default function WhyChooseUs() {
               </div>
 
               {/* Logo Cluster */}
-              <div className="absolute top-1/3 -right-8 bg-white p-5 rounded-3xl shadow-xl">
-                <div className="grid grid-cols-2 gap-4">
-                  <Image src="/images/tools/airbnb.png" alt="Airbnb" width={50} height={50} />
-                  <Image src="/images/tools/v-logo.png" alt="V" width={50} height={50} />
-                  <Image src="/images/tools/b-logo.png" alt="B" width={50} height={50} />
-                  <Image src="/images/tools/chatgpt.png" alt="ChatGPT" width={50} height={50} />
-                </div>
+              <div className="absolute top-1/3 -right-6 bg-white rounded-3xl shadow-xl">
+                  <Image src="/images/Group.png" alt="Airbnb" width={150} height={150} />
               </div>
             </div>
           </div>
