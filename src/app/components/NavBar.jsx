@@ -52,7 +52,7 @@ export default function NavBar() {
           </ul>
         </nav>
 
-        {/* CTA Button */}
+        {/* Button */}
         <div>
           <Link
             href="/schedule"
